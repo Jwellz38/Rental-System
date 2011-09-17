@@ -1,0 +1,323 @@
+/*
+Template Name: Cardeo Three	
+Theme URI: http://www.cardeo.ca	
+Description: a css three website template
+Version: 1.0
+Author: Matt Lambert
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Helvetica;
+	
+	vertical-align: baseline;
+}
+
+/***------------------------------------
+ALL
+------------------------------------***/
+
+body {
+ font-family:  helvetica;
+ font-size: 12pt;
+ color: #666;
+ padding: 0;
+ margin: 0;
+ text-align: left;
+ vertical-align: top;
+ border: 0;
+background: rgb(174,188,191); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(174,188,191,1) 5%, rgba(10,8,9,1) 78%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(174,188,191,1)), color-stop(78%,rgba(10,8,9,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* W3C */
+}
+
+img {
+ border: 0;
+}
+
+a, a:link, a:visited {
+ color: #333;
+ text-decoration: underline;
+ border: 0;
+}
+
+a:hover {
+ color: #ccc;
+ text-decoration: underline;
+ border: 0;
+}
+
+ul {
+ margin: 0;
+ padding: 0px 0px 10px 20px;
+ list-style: none;
+ border: 0;
+}
+
+li {
+ list-style: square;
+}
+
+p {
+ padding-bottom: 10px;
+ margin: 0;
+}
+
+ol li {
+ list-style-type: decimal;
+}
+
+/***------------------------------------
+TYPE
+------------------------------------***/
+
+@font-face {  
+ font-family: 'aller-display';  
+ src: url('aller-display.ttf');  
+}  
+
+.font {  
+ font-family: aller-display;   
+}
+
+.font-shadow {     
+ text-shadow: 0 1px 3px #333;  
+}
+
+h1 { 
+ font-size: 2.25em;
+ color: #fff;
+}
+
+h1 span { 
+ color: #82dbcf;
+}  
+
+h2 { 
+ font-size: 3em;
+ color: #fff;
+}
+
+h3 { 
+ font-size: 1.5em;
+ color: #aca589;
+ line-height: 1em;
+ padding-bottom: 10px;
+}
+
+h4 {
+ font-size: 1.125em;
+}
+
+h5 {
+ font-size: 1em;
+}
+
+h6 {
+ font-size: 0.75em;
+}
+
+strong { 
+ font-weight: bold;
+}
+
+/***------------------------------------
+LAYOUT
+------------------------------------***/
+
+#container { 
+ margin: 0 auto;
+}
+
+#top { 
+ margin: 0 auto;  
+}
+
+#header { 
+ width: 960px;
+ margin: 0 auto;
+}
+
+#title {
+ float: left;
+}
+
+#nav {
+ float: right;
+ padding-top: 10px;
+}
+
+#nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+#nav li { 
+ margin-left: 10px;
+ float: left;
+ list-style-type: none;
+}
+
+#descrip {
+ clear: both;
+ width: 960px;
+ text-align: center;
+ margin: 0 auto;
+ padding-top: 20px;
+ padding-bottom: 40px;
+}
+
+#columns {
+ background: #fff url(images/grade.gif) top left repeat-x;
+ width: 100%;
+ float: left;
+ border-top: 1px solid #fff;
+}
+
+#main {
+ width: 960px;
+ margin: 0 auto;
+ padding-top: 30px;
+ padding-bottom: 100px;
+}
+
+.col {
+ width: 40%;
+ margin-right: 30px;
+ float: right;
+ height: 300px;
+}
+
+.col2 {
+ width: 99%;
+ float: left;
+ height: 300px;
+}
+
+.box {  
+ border-radius: 10px;  
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px; 
+ background-color: #fff; 
+ padding: 20px;
+}
+
+.navbox {  
+ border-radius: 10px;  
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px; 
+ background-color: #aaa; 
+ padding: 5px 10px;
+}   
+
+#footer {
+ width: 960px;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 0.75em;
+ padding-top: 40px;
+ clear: both;
+ color: white;
+}
+
+.footerbox {  
+ border-radius: 20px;  
+ -moz-border-radius: 20px;  
+ -webkit-border-radius: 20px; 
+background: rgb(174,188,191); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(174,188,191,1) 5%, rgba(10,8,9,1) 78%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,rgba(174,188,191,1)), color-stop(78%,rgba(10,8,9,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, rgba(174,188,191,1) 5%,rgba(10,8,9,1) 78%); /* W3C */
+ padding: 20px;
+}
+
+
+/***------------------------------------
+LINKS
+------------------------------------***/
+
+#nav a, #nav a:link, #nav a:visited {
+ text-decoration: none;
+ color: #fff;
+}
+
+#nav a:hover {
+ text-decoration: none;
+ color: #333;
+}
+
+
+
+input {
+	padding: 5px;
+	font-size: 15px;
+	text-shadow: 0px 1px 0px #fff;
+	outline: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbe), to(#ffffff));
+	background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #717171;
+}
+
+input:focus {
+	-webkit-box-shadow: 0px 0px 5px #007eff;
+	-moz-box-shadow: 0px 0px 5px #007eff;
+	box-shadow: 0px 0px 5px #007eff;
+}
+
+
+#leftcap {
+display: inline;
+float: left;
+position: inherit;
+padding-left: 5%;
+
+}
+
+#rightcap {
+display: inline;
+float: right;
+position: inherit;
+padding-right: 1%;
+
+}
+
+#centercap {
+display: inline;
+float: right-center;
+position: inherit;
+padding-left: 40px;
+}
+
+#qulified {
+display: inline;
+float: right-center;
+position: inherit;
+padding-left: 40px;
+}
