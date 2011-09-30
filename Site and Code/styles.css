@@ -211,7 +211,7 @@ LAYOUT
 .col2 {
  width: 99%;
  float: left;
- height: 300px;
+ height: auto;
 }
 
 .box {  
