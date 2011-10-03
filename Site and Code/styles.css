@@ -313,9 +313,11 @@ padding-right: 1%;
 
 #centercap {
 display: inline;
-float: right-center;
+float: left;
 position: inherit;
-padding-left: 40px;
+padding-left: 15%;
+
+
 }
 
 #qulified {
