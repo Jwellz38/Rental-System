@@ -1,0 +1,23 @@
+<HTML>
+  
+ <SCRIPT LANGUAGE="JavaScript">
+ function validate () {
+ var TestVar = myForm.tb.value;
+ var myArray = TestVar.split(',');
+document.myForm.textf.value = myArray.length;
+
+ }
+</SCRIPT>
+ <HEAD>
+ <TITLE>Test Input</TITLE>
+</HEAD>
+<BODY>
+<form name="myForm">
+<input type="text" id="tb" onkeydown="validate(form.this)"/>
+<input readonly type="text" name="textf" placeholder="none"/>
+<label id="textf" name="textf" />
+</FORM>
+ 
+
+</BODY>
+</HTML>
