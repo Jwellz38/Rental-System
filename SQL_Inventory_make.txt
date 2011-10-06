@@ -1,0 +1,37 @@
+id
+name
+quantity
+description
+centrification_required 
+link of image
+price_regular
+price_alumni
+price_member1
+price_member2
+
+
+Create
+
+$sql = "CREATE TABLE `sac`.`inventory` (`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` TEXT NOT NULL, `quantity` INT NOT NULL, `description` LONGTEXT NOT NULL, `req_cert` CHAR(3) NOT NULL, `img_address` TEXT NOT NULL, `regular_price` FLOAT NOT NULL, `alumni_price` FLOAT NOT NULL, `mem1_price` FLOAT NOT NULL, `mem2_price` FLOAT NOT NULL) ENGINE = MyISAM;";
+
+
+insert Skeleton
+
+INSERT INTO  `sac`.`inventory` (
+`id` ,
+`name` ,
+`quantity` ,
+`description` ,
+`req_cert` ,
+`img_address` ,
+`regular_price` ,
+`alumni_price` ,
+`mem1_price` ,
+`mem2_price`
+
+
+insert example
+
+INSERT INTO `sac`.`inventory` (`id`, `name`, `quantity`, `description`, `req_cert`, `img_address`, `regular_price`, `alumni_price`, `mem1_price`, `mem2_price`) VALUES ('1', 'Single Sit on Top Kayaks', '84', 'Single Sit on Top Kayak is one of hour popular products. This product doesn''t require any class.
+This unite supports weight unto 400 lbs.
+', 'A', 'images/sk.png', '9', '7', '6', '5');

@@ -30,22 +30,30 @@
 	<div id="columns">
 		<div id="main">
 			
+<?php
+include 'auth.php'; //to change login, please authenticate 
+   			$sql="SELECT * FROM `inventory` ORDER BY `id` asc;";
+   			$result=mysql_query($sql);
 
+?>
+			
 			<div class="col2 box" align="center">
 				<h3 class="font">Step 2) Take your pick</h3>
-				<div id="row" ><div class="rowbox">
-				<img class="alignleft" src="images/sk.png" width="140px" height="100px"/>
-				This is a single person kayak.<div class="alignright">$9/Hr</div>
+<? while($rows = mysql_fetch_array($result)){				
+			echo	'<div id="row" ><div class="rowbox">'
+				?><img class="alignleft" src="<? echo $rows["img_address"]?>" width="140px" height="100px" />
+			<? echo 	$rows["name"];?><div class="alignright">$<? echo $rows["regular_price"];?>/hr</div>
 				<br/>
-				Weight Capasity : 350-400 lbs
-				<br/>
-				<input type="text" placeholder="Who will go in here?" />
-				<br/>
-				QTY:
-				
+		<?	echo	$rows["description"];
+			echo	'<br/>';
+			?>
+					<input type="text" name="<? echo $rows["id"];  ?>" id="<?  ?>" placeholder="Who will go in here?" />
 			
-				</div></div>
-	 			</div>
+			<br/>
+			<?
+			echo	'</div></div> <!-- the div that will loop -->';
+			 echo "i";}?>	
+	 			</div> <!-- this is the main div -->
 
 	
 	<div id="footer" >
