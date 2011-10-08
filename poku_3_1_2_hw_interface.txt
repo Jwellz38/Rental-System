@@ -1,0 +1,112 @@
+3.1.2 Hardware Interface
+
+Users of the "Aquatic Center Tracking System" will interface directly with 
+various hardware components. Here is a description of the components and 
+configurations of this hardware:
+
+	Option 1: IBM-Compatible PC Base Station
+	This is a PC-based station on which customers could register or 
+	log into the system. Here are its components, interfaces and advantages:
+	Laptop Unit:	
+		Components:
+		1. ethernet (preferably wireless) web-capable network card
+		2. onboard graphical display. 
+		3. onboard keyboard for input.
+		4. onboard touchpad for input.
+		5. optional USB mouse.
+		6. Optional USB full-sized keyboard.
+		7. Optional HDMI large-screen display.
+
+		Mechanical:
+		1. possible locking cable to prevent theft of hardware.
+		2. possible ground-mount on which hardware is secured.
+
+		Not Implemented:
+		1. the onboard microphone, which could potentially be used for voice capture rather than typing.
+		2. the onboard camera, which could potentially be used for photo identification.
+		3. the onboard sound device, which could potentially be used to give audio feedback per user action.
+
+		Advantages:
+		1. is portable.
+		2. has the advantage of having a built-in display so that a seperate monitor is not required.
+		3. users will use the built-in keyboard to type or enter information.
+		4. users will use the touchpad.
+
+		Disadvantages:
+		1. small screen size may make viewing uncomfortable.
+		2. small onboard keyboard may make typing more difficult or uncomfortable.
+		3. small onboard touchpad may make cursor movement more difficult or uncomfortable.
+		4. small size of laptop leaves it more susceptible to theft if not using locking device or ground-mount.
+		
+
+		Sample System:
+		Dell Inspiron 14R
+		Retail Estimate		: $700
+		Processor		: 2nd Generation Intel® Core™ i3-2310M processor 2.10 GHz
+		Operating System	: Windows 7 Home Premium, 64-Bit
+		Memory			: 4GB Shared Single Channel DDR3 Memory
+		Chipset			: Mobile Intel® 6 Series Express Chipset (HM67)
+		Video Card		: Intel HD Graphics/HD Graphics 3000 with up to 1.6GB Dynamic Video Memory
+		Display			: 15.6 inch display (1366x768) 
+		Audio/Speakers		: SRS SWound HD, Built-in Microphone
+		Optical Drive		: Internal tray-load DVD+/-RW 
+		Battery			: 6-cell 48WHr Li-Ion Battery
+		Camera			: 1.0MP Integrated 1280x720 native HD Webcam
+		Wireless		: Intel® Centrino® Wireless-N 1030 (1x2 bgn + Bluetooth)
+		Accessible Ports	: USB (4), HDMI, VGA, RJ45 LAN, AC Adapter Connector, Audio Jack, Microphone Jack
+		Dimensions		: Width 13.50", Height 1.20", Depth 9.68", Weight 4.89lbs		
+		
+
+	Option 2: Mac-Based Base Station
+	This is a MAC-based station on which customers could register or log into the system. Much of 
+	this section is identical to the IBM-Compatible Laptop system mentioned above. Here are the 
+	components, interfaces and advantages mac-Based station:	
+	MacBook Unit:
+		Components:
+		- identical to laptop unit.
+
+		Mechanical:
+		- identical to laptop unit.
+
+		Not Implemented:
+		- identical to laptop unit.
+
+		Advantages:
+		- identical to laptop unit.
+
+		Disadvantages:
+		- identical to laptop unit.
+
+		Sample System:
+		MacBook Pro
+		Retail Estimate		: $2000
+		Processor		: 2.0GHz quad-core Intel Core i7 
+		L3 cache		: 6MB shared
+		Memmory			: 4GB (two 2GB SO-DIMMs) of 1333MHz DDR3 SDRAM
+		Hard Drive		: 500GB Serial ATA; 5400 rpm
+		Optical Drive		: 8x SuperDrive (DVD±R DL/DVD±RW/CD-RW)
+		Graphics		: Intel HD Graphics 30005 and AMD Radeon HD 6490M with automatic graphics switching
+		Graphics Memory		: 256MB GDDR5
+		Video			: FaceTime HD camera; Thunderbolt port with support for DVI, VGA, dual-link DVI, and HDMI 	
+		Display			: 15.4-inch (diagonal) LED-backlit glossy widescreen display, 1440-by-900 resolution
+		Expansion		: One Thunderbolt port (up to 10 Gbps), one FireWire 800 port (up to 800 Mbps), two USB 2.0 
+					  ports (up to 480 Mbps), SDXC card slot
+		Audio			: Stereo speakers with subwoofers, omnidirectional microphone, audio line in minijack (digital/analog), 
+					  audio line out/headphone minijack (digital/analog)
+		Networking		: 10/100/1000BASE-T (Gigabit) Ethernet
+		Wireless		: Wi-Fi (based on IEEE 802
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
