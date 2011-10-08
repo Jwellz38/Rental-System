@@ -1,0 +1,94 @@
+Detailed Description of Functional Requirements
+
+	Functional Requirements
+	
+		Sign In	
+		
+			Purpose / Description:  Log in to the system.
+			Inputs:  First name, Last Name, Phone number.
+			Processing:  Customers enter First name, Last Name, Phone number in a database. These profiles are saved in the database for future equipment rentals.
+			Outputs: Customer is signed in.
+		
+		Minors / 18 and over
+		
+			Purpose / Discription:  Minors must be listed with an adult in the database.
+			Inputs:  Minor and 18 or older checkboxes.
+			Processing:	Option will distinguish every rider as a minor or an adult.
+			Outputs: Adults with these minors.
+		
+		Waiver
+		
+			Purpose / Discription:   Read and check off waiver.
+			Inputs:  Read check box.
+			Processing:  The check box serves as a signature for waiver.
+			Outputs:  All rider must varify that they have read the waiver by marking the check box.
+			
+		I.D. Collection
+		
+			Purpose / Discription:  Explain ID collection process.
+			Inputs:  All riders 18 and over.
+			Processing:  All rider must turn in an ID and Main contact must turn in current D.L.
+			Outputs:  proceed to office in order to complete check in.
+			
+		Equipment Rental
+		
+			Purpose / Discription:  Equipment information and prices.
+			Inputs:  Equipment selection.
+			Processing:  Customer will select equipment.
+			Outputs: Equipment selected will be checked out under customer profile.
+		
+		Sync to Class Database
+		
+			Purpose / Discription:  Sync to Class database.
+			Inputs:  Fristname, Lastname, Phone number, and special equipment clearence.
+			Processing:  Sync will create a profile for people who have special equipment clearence in the Class database. If cleared those equipment will show up for rental.
+			Outputs:  People that has taken a class will have a profile.
+			
+		Inventory
+		
+			Purpose / Discription:  Current Inventory.
+			Inputs:  Add, remove, repair, staff.
+			Processing:  Method of keep track off current inventory in use, in repair, staff use, and remove equipment.
+			Outputs: Up to date iventory list.
+			
+		Hook Number
+			
+			Purpose / Discription:  Key tag.
+			Inputs:  Key tag number.
+			Processing:  filing system for car keys.
+			Outputs:  To maintain a efficent key filing and finding system.
+			
+		Pervious Page / start over
+		
+			Purpose / Discription:  Previous Page / start over.
+			Inputs:  Previous page and start over buttons.
+			Processing:  Capability to move to previous pages or completely start over.
+			Outputs: The previous page or sign in page.
+			
+		Check In Complete
+		
+			Purpose / Discription:  Check in colmplete.
+			Inputs:  Complete pre-check in.
+			Processing:  Direct customer to proceed inside with Id cards.
+			Outputs: Completed pre-check in.
+		
+		Return and Time Stop
+		
+			Purpose / Discription:  Stop rental.
+			Inputs:  Stop Time.
+			Processing:  Staff will stop the time on a rental equiptment.
+			Outputs:  Total time equipment rented.
+			
+		Admin Log In
+		
+			Purpose / Discription:  Admin Log In.
+			Inputs: Username and Password.
+			Processing:  Admin will have a seperate account with special clearences.
+			Outputs:  Administrative access.
+			
+		Profile Deletion 
+			
+			Purpose / Discription:  Deletion of customer profile.
+			Inputs:  Last rental date.
+			Processing:  If a customer has not rented within 7 years, the profile will be deleted from the database.
+			Outputs:  Database consists of customers who have rented in the last 7 years.

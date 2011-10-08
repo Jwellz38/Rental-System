@@ -1,0 +1,33 @@
+3.1.3 Software Interface
+
+Users of the "Aquatic Center Tracking System" will interface directly 
+with various software components. Here is a description of the components 
+and configurations of this software:
+Software Interface
+	Direct User Interface:
+		1. Operating System: Windows 7 (or Mac OS X)
+		2. Supported Web-Browsers:
+			a. Internet  Explorer 6 or later
+			b. Mozilla FireFox 5 or later
+	Direct Staff Interface:
+		1. Web-based management of customer registration/rental/sales info
+		1. Web-based html report displaying admin-related indicators (pending implementation)
+		2. Excel report using VBA backend to generate reports and indicators 
+		   according to admin preferences (pending implementation)
+	Developer Interface:
+		1. Web Host (Server)
+			a. capable of running PHP scripts
+			b. supports MySQL backend
+		2. PhpMyAdmin
+			- manages the MySql database
+			- MySQL backend stores tables for the tracking system's database
+		3. XAMPP
+			- contains elements for debugging/running PHP scriptts on local machine:
+			- contains the following elements:
+				1. Apache -- a web server software installable on local machine
+				2. MySQL -- an RDBMS utilized to create the database for the system
+				3. PHP -- runtime to be stored on the local machine
+		4. PHP Scripting IDE
+			- facilitates creation, editing, testing and debugging of PHP code
+			- example: Netbeans w/ PHP engine
+				

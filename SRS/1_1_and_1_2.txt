@@ -1,0 +1,8 @@
+1.1 Purpose of this Document
+	This Software Requirement Specification(SRS) document describes the functions and performance requirements for the Sacramento State Aquatic Center's computerized rental system.  This new computerized rental system is a web base system designed to speed up the rental process.
+
+1.2 Scope of the Development Project
+	The product to be developed is for Sacramento State Aquatic Center(SSAC).  The product will be used as a replacement for the current paper-based system that is now currently in placed.  The new computerized system will allow customers to rent their equipment and this system will also allow the SSAC's staff and administrators to access and modify the rental system as needed. 
+	There are some constraints to this new computerized system that will need to be taken into account.  First, there is specialized equipment that can only be rented by customers who have taken a class or lesson.  Second, there are some boats that have restraints on the number of seats, and also on the combination of adults and children.  Third, there must be a way to check the validity of Sac state students, alumni, facility and staff in order to receive discounts.  Lastly, the station where the customers have to check-in would have to be outside because of space limitations.
+		    
+	
