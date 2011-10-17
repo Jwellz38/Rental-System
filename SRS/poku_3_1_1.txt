@@ -1,0 +1,46 @@
+3.1.1 User Interface
+Users of the web system will directly manipulate or interact with a terminal station. 
+The following is an overview of the elements which the user can directly manipulate 
+or control within the web system. 
+
+The system distinguishes between three sets of users:
+1. Customers (New and Current)
+2. Staff
+3. Adminstrators
+
+New Customers User Interface:
+	The registration web page enables new users to create a username, enter phone number or password, and 
+	enter other identifying attributes needed to register a user into the system. Users fill this information
+	and then are prompted to click a Submit button. There is also the option to click a Clear button to erase
+	undesired entries if necessary.
+
+Current/Returning Customers User Interface:
+	The registration web page is divided into two parts such that the left is registration for new customers and 
+	the right is login for returning customers. This login for returning customers is intended to be quick and 
+	convenient, so that only email/phone number or email/password is needed to login to the system.
+
+Staff User Interface:
+	The staff will see a "current customer" webpage, which lists the most recent requests from customers who are
+	waiting for a rental. It will have all pertinent information such as the name of the customer, the equipment
+	desired to be rented as well as the quantity of the rental and how many other individuals are with the customer
+	as a group. 
+
+	The staff will also have access to a "sales webpage", which will give descriptive information on a particular customer's
+	rentals, the duration of those rentals, and the final calculated cost (minus the cost of a precalculated grace period).
+
+	Additionally, the staff (just like the customers) will have their own login page, so that the system can uniquely
+	identify which personell handles which transactions.
+
+Administrator User Interface:
+	The administrator will have a master login to an area of the system not accessible by the staff (and of course 
+	the customers).
+
+	The administrator will have all of the priviledges of the staff; she will be able to see not only current
+	transactions, but also a history of transactions. The administrator will have access to a webpage to allow
+	her to modify the costs of the various items in the queue of rental equipment.Such changes will be immediately
+	visible in the transactions of subsequent customers.
+
+	The adminstrator will also have a reports interface to allow her to generate indicators relating to the overall
+	business, such as history of sales, the number of customers, the number of rentals, most popular item, etc. Each
+	of these can be filtered to a particular time period.
+		
