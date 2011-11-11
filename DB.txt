@@ -1,0 +1,52 @@
+Person Table
+=============
+ID
+FIRST NAME
+LAST NAME
+PHONE #
+EMAIL 
+CERT1
+CERT2
+CERT3
+CERT4 //MAY HAVE MORE CERTS
+PERSON TYPE // TYPES MAYBE 1> ADMIN 2> STAFF 3> CUSTOMER
+BOOLEAN // 18 OR NOT
+
+
+
+
+Inventory Table
+===============
+ID 
+Device Name
+QTY
+Description
+Cert_Req
+Address_to_image
+Reg_price //Regular Price
+Alumni_Price //Price for sac state student... etc..
+Blank_Price // some other price(s) Some blank fields so that 
+Seats_availible
+WeightLimt
+
+
+
+Trip
+================
+ID
+TransActionID *FK
+P.ID *FK
+Total_price //includes what may or may not have been paid 
+Boolean(Paid or not)
+
+
+
+Transaction
+================
+ID
+StartTime
+EndTime
+Name
+Total_price
+Boolean Paid
+equipment used.
