@@ -34,4 +34,39 @@ insert example
 
 INSERT INTO `sac`.`inventory` (`id`, `name`, `quantity`, `description`, `req_cert`, `img_address`, `regular_price`, `alumni_price`, `mem1_price`, `mem2_price`) VALUES ('1', 'Single Sit on Top Kayaks', '84', 'Single Sit on Top Kayak is one of hour popular products. This product doesn''t require any class.
 This unite supports weight unto 400 lbs.
-', 'A', 'images/sk.png', '9', '7', '6', '5');
+', 'A', 'images/sk.png', '9', '7', '6', '5')
+
+
+
+==========================================================================================
+Person Table
+=============
+ID
+FIRST NAME
+LAST NAME
+PHONE #
+EMAIL 
+CERT1
+CERT2
+CERT3
+CERT4 //MAY HAVE MORE CERTS
+PERSON TYPE // TYPES MAYBE 1> ADMIN 2> STAFF 3> CUSTOMER
+BOOLEAN // 18 OR NOT
+
+
+SQL MAke Command
+==============
+CREATE TABLE  `sac`.`users` (
+`ID` SERIAL NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`FirstName` TEXT NOT NULL ,
+`LastName` TEXT NOT NULL ,
+`phone` TEXT NOT NULL ,
+`email` TEXT NOT NULL ,
+`cert1` INT NOT NULL ,
+`cert2` INT NOT NULL ,
+`cert3` INT NOT NULL ,
+`cert4` INT NOT NULL ,
+`clearance` INT NOT NULL ,
+`is18` BOOLEAN NOT NULL
+) ENGINE = MYISAM ;
+
