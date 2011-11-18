@@ -4,27 +4,6 @@
 <title>Equipments</title>
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<script language="javascript">
-function changeValue(textObject,delta, max){
-var myVal = parseInt(textObject.value);
-   if (myVal == NaN) {
-      myVal = 0;
-   } else {
-   myVal = myVal + delta;
-   }
-/* check that value is not negative */
-if (myVal < 0) {
-   myVal = 0;
-   }
- if(myVal > max){
- myVal = max;
- alert("You can't take more than "+ max +" of this item")
- }
-textObject.value = myVal;
-return;
-}
-</script>
-
 </head>
 <body>
 <div id="container">
@@ -73,8 +52,7 @@ return;
 <tr><td></td><td></td></tr>
 <tr>
 <td><input type="checkbox" name="vehicle" value="Car" /></td>
-<td>Single Sit-on-top Kayak
-</td>
+<td>Single Sit-on-top Kayak</td>
 <td>$9/hr</td>
 </tr>
 <tr>
@@ -124,7 +102,7 @@ return;
 
 <tr>
 <td><input type="checkbox" name="vehicle" value="Car" /></td>
-<td width="30%">Slalom Kayak<br/></td>
+<td width="30%">Slalom Kayak</td>
 <td>$10/hr</td>
 </tr>
 <tr>
@@ -179,8 +157,6 @@ return;
  			<div id="rightcap">
  			 <img src="http://www.sacstateaquaticcenter.com/images/aquatic_center/SailingandWindsurfing/Front%20Page/classesclinics_thumb.png" align="center">
  			<p align="center">Sailing</p>
- 			<div class="inputSmall">
-
  			<table border="1" align="center" width="200" cellpadding="1" cellspacing="0" height="0" class="tblRowHighlite">
 <thead>
 <tr>
@@ -204,26 +180,14 @@ return;
 
 <tr>
 <td><input type="checkbox" name="vehicle" value="Car" /></td>
-<td>Laser
-<br/>
-
-
-<form name="order">
-<input type="button"  class="inputSmall" value="-" onclick="javascript:changeValue(document.order.QUANTITY,-1,2);return false;">
-<input type="text" name="QUANTITY" id="alex" value="1" size="2" maxlength="3">
-<input type="button" value="+"   class="inputSmall" onclick="javascript:changeValue(document.order.QUANTITY,1,2);return false;">
-</form>
-</td>
-<td>$10/hr<br/></td>
+<td>Laser</td>
+<td>$10/hr</td>
 </tr>
 </tbody>
 </table>
 </td>
 </tr>
 </table>
-			</div>
- 			
-
  			</div>
  			</div>
  			<center><INPUT TYPE="submit" VALUE="Next" style="width:200px; height: 50px;"/></center>
@@ -239,7 +203,7 @@ return;
 	</div>
 </div>
 
-</div>
+
 
 </body>
 </html>

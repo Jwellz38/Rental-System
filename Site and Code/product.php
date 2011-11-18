@@ -1,4 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<?php
+error_reporting(0);
+session_start();
+if(!$_SESSION["login"]){
+print '<script type="text/javascript">';
+print 'alert("You need to login first")';
+print '</script>';  echo '<meta http-equiv="REFRESH" content="0;url=index.php">';
+die();
+}
+?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Equipments</title>
@@ -52,13 +62,14 @@ include 'auth.php'; //to change login, please authenticate
 			<br/>
 			<?
 			echo	'</div></div> <!-- the div that will loop -->';
-			 echo "i";}?>	
+			 ;}?>	
 	 			</div> <!-- this is the main div -->
+				</div>
+					</div>
 
-	
 	<div id="footer" >
 		<div class="footerbox">
-		<font color="red"></font>
+		<font ></font>
 		Sacramento Aquatic Center
 		</font>
 
@@ -67,6 +78,9 @@ include 'auth.php'; //to change login, please authenticate
 </div>
 
 
+<?
+				ob_end_flush();
 
+?>
 </body>
 </html>

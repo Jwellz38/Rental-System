@@ -1,11 +1,9 @@
 <html>
  <head>
- <link rel="stylesheet" href="styles.css" type="text/css" />
-
   <title> Simple Auto Complete Drop Down </title>
   <script language="javascript">
     // List of words to show in drop down
-    var customarray = new Array("joubin","madelyn", "mike", "cj", "derby");
+    var customarray = new Array("yello","yanki");
 
     //****************************************************************************
     function actb(obj,ca){
@@ -695,7 +693,7 @@
 
  <body>
 <form name="myForm" action="a.php" method="post">
-<input autocomplete="off" type="text" name="names" id="tb" onkeydown="validate(form.this)" size="50" />
+<input type="text" name="names" id="tb" onkeydown="validate(form.this)"/>
 <input readonly type="text" name="textf" placeholder="none"/>
 <INPUT TYPE="submit" VALUE="Go" />
 </FORM>
@@ -704,8 +702,8 @@
     <SCRIPT LANGUAGE="JavaScript">
  function validate () {
  var TestVar = myForm.tb.value;
- var myArray = TestVar.split(/[a-z]+/);
-document.myForm.textf.value = myArray.length - 1;
+ var myArray = TestVar.split(' ');
+document.myForm.textf.value = myArray.length;
 
  }
     

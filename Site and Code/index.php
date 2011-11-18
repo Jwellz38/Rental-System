@@ -29,34 +29,43 @@
 
 	<div id="columns">
 		<div id="main">
-			
+<?php
+include 'auth.php'; //to change login, please authenticate 
+
+?>
 
 			<div class="col box" align="center">
 				<h3 class="font">Returning Customer</h3>
   <form method="post" ACTION="login.php">
-E-mail<br/>
-<input type="text" id="myusername" name="myusername" />
-<br/>
-Password<br/>    <input type="password" id="mypassword" name="mypassword" />
-<br/>
-<br/>
-<INPUT TYPE="submit" VALUE="Go" />
-<input TYPE="button" VALUE="Password?"onclick="javascript:document.location='lostpass.php'; return false; "/>
-</form>				</div>
+  				First Name<br/><input type="text" id="fname" name="fname" />
+  				<br/>
+				Last Name<br/><input type="text" id="lname" name="lname" />
+				<br/>
+				Phone Number<br/><input type="text" id="phonenum" name="phonenum" />
+				<br/>
+				<br/>
+				<INPUT TYPE="submit" VALUE="Go" />
+				<input TYPE="button" VALUE="Password?"onclick="javascript:document.location='lostpass.php'; return false; "/>
+	</form>	
+	</div>
 
 			<div class="col box" align="center">
 				<h3 class="font">New Customer</h3>
-				    <form method="post" action="register.php" name="register" id="register">Name <br/><input type="text" id="name" name="name" ><br/>
+				    <form method="post" action="Reg.php" name="register" id="register">
+				    First Name <br/><input type="text" id="fname" name="fname" ><br/>
+				   	Last Name <br/><input type="text" id="lname" name="lname" ><br/>
 					Email <br/> <input type="text" id="email" name="email"><br/>
-					Password <br/> <input type="password" id="password" name="password"><br/>
-					Conform Password <br/> <input type="password" id="password2" name="password2"><br/>
+					Phone Number <br/> <input type="text" id="phonenum" name="phonenum"><br/>
+					<input type="checkbox" id="b18">Check if 18
 					<br/>
-					<input type="submit" value="Submit">
-					<input type="reset" value="Clear">
+					<br/>
+					<input class="button" type="submit" value="Submit">
+					<input class="button" type="reset" value="Clear">
 					</form>
 
 			</div>
 		</div>
+		
 
 	<div id="footer" >
 		<div class="footerbox">
