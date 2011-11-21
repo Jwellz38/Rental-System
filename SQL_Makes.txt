@@ -89,3 +89,26 @@ INSERT INTO  `sac`.`certificationsUsers` (
 VALUES (
 NULL ,  '5',  'Being awesome certification'
 );
+
+
+
+
+
+
+Trip
+================
+ID
+TransActionID *FK
+P.ID *FK
+Total_price //includes what may or may not have been paid 
+	   //Total_price is not needed as it can be done by calculations.
+Boolean(Paid or not)
+
+
+CREATE TABLE  `sac`.`Trip` (
+`id` INT NOT NULL AUTO_INCREMENT ,
+`fkid` INT NOT NULL ,
+`paid` BOOLEAN NOT NULL ,
+`date` DATETIME NOT NULL ,
+PRIMARY KEY (  `id` )
+) ENGINE = MYISAM ;
