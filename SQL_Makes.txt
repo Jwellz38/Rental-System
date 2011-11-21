@@ -12,7 +12,7 @@ price_member2
 
 Create
 
-$sql = "CREATE TABLE `sac`.`inventory` (`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` TEXT NOT NULL, `quantity` INT NOT NULL, `description` LONGTEXT NOT NULL, `req_cert` CHAR(3) NOT NULL, `img_address` TEXT NOT NULL, `regular_price` FLOAT NOT NULL, `alumni_price` FLOAT NOT NULL, `mem1_price` FLOAT NOT NULL, `mem2_price` FLOAT NOT NULL) ENGINE = MyISAM;";
+CREATE TABLE `sac`.`inventory` (`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` TEXT NOT NULL, `quantity` INT NOT NULL, `description` LONGTEXT NOT NULL, `req_cert` CHAR(3) NOT NULL, `img_address` TEXT NOT NULL, `regular_price` FLOAT NOT NULL, `alumni_price` FLOAT NOT NULL, `mem1_price` FLOAT NOT NULL, `mem2_price` FLOAT NOT NULL) ENGINE = MyISAM;
 
 
 insert Skeleton
@@ -70,3 +70,22 @@ CREATE TABLE  `sac`.`users` (
 `is18` BOOLEAN NOT NULL
 ) ENGINE = MYISAM ;
 
+
+
+
+Make Certifications table
+
+CREATE TABLE  `sac`.`certificationsUsers` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`ufk` INT NOT NULL ,
+`desc` TEXT NOT NULL
+) ENGINE = MYISAM ;
+
+INSERT INTO  `sac`.`certificationsUsers` (
+`id` ,
+`ufk` ,
+`desc`
+)
+VALUES (
+NULL ,  '5',  'Being awesome certification'
+);
