@@ -50,3 +50,5 @@ Name
 Total_price
 Boolean Paid
 equipment used.
+TripID
+
