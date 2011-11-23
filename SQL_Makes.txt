@@ -112,3 +112,37 @@ CREATE TABLE  `sac`.`Trip` (
 `date` DATETIME NOT NULL ,
 PRIMARY KEY (  `id` )
 ) ENGINE = MYISAM ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transactions
+===============
+
+
+
+
+
+CREATE TABLE  `sac`.`transactions` (
+`id` INT NOT NULL AUTO_INCREMENT ,
+`startTime` TIMESTAMP NOT NULL ,
+`endTime` TIMESTAMP NOT NULL ,
+`total_price` FLOAT NOT NULL ,
+`paid` BOOLEAN NOT NULL ,
+`equipmentName` TEXT NOT NULL ,
+`tripID` INT NOT NULL ,
+PRIMARY KEY (  `id` )
+) ENGINE = MYISAM ;
