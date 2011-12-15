@@ -1,0 +1,4 @@
+8. Restrictions, Limitations, and Constraints
+	-There was a limited time spent on this Software Design Document due to the project time constraint.  A final product must be shown by December 15, 2011.  
+	-There was also a decision to use Data Flow Diagrams instead of Class Diagrams to better capture the flow of data since PHP and HTML were the programming tools that were used.  
+	-Due to insufficient time and also expense, the barcode reader and printer have been removed from the design and implementation.   
